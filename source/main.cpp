@@ -95,9 +95,6 @@ int main() {
 
         dot->setDisableDutyCycle(true);
 
-        dot->setRxDataRate(mDot::SF_7);
-        dot->setJoinRx2DataRate(mDot::SF_9);
-
         // configure network link checks
         // network link checks are a good alternative to requiring the gateway to ACK every packet and should allow a single gateway to handle more Dots
         // check the link every count packets
