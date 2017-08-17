@@ -1,0 +1,8 @@
+BUILD/
+libmDot-mbed5
+.mbed
+mbed_settings.*
+mbed-os/
+.hg/
+ChainableLED/
+
